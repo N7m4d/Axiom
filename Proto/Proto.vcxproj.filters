@@ -1,0 +1,1637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Proto">
+      <UniqueIdentifier>{dbca7cdb-defc-4134-be95-11ca36fd8043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include">
+      <UniqueIdentifier>{b6669a8d-26c1-4029-9901-d1e20b463458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\libs">
+      <UniqueIdentifier>{aad788a8-8b79-430d-8cb7-2edd5df9de19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\tools">
+      <UniqueIdentifier>{bb5eb40a-7128-4fb9-a7ce-d4133626f1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\libs\debug">
+      <UniqueIdentifier>{649d9b98-18e8-4eab-8b42-0a1c7222cfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\libs\release">
+      <UniqueIdentifier>{4fefcf7e-3e6e-4597-a224-637339eea82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl">
+      <UniqueIdentifier>{baa414bc-a5fd-4cd9-b10d-fa595be6d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google">
+      <UniqueIdentifier>{7ad2e73a-18c8-42e8-9748-894e93c9c0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf">
+      <UniqueIdentifier>{6fb392b5-8149-423c-b75a-b01b65000813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\compiler">
+      <UniqueIdentifier>{e3ce523b-2461-4080-82e8-0dc91550bc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\io">
+      <UniqueIdentifier>{b28dac7c-ea7c-44e8-a8c1-3bde57df5b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\json">
+      <UniqueIdentifier>{4a8d3eaf-3dd4-4a79-a510-a2849ca8ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\stubs">
+      <UniqueIdentifier>{c8ead48e-7575-4ed3-ad97-ef060b159f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\util">
+      <UniqueIdentifier>{c4c67f40-037f-41aa-b14a-ef93dc4f25dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\compiler\cpp">
+      <UniqueIdentifier>{2925bd15-e4a9-4207-8a72-7e4ff81925e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\compiler\cpp\tools">
+      <UniqueIdentifier>{b705c25e-3dee-4c21-8c30-608a9d41f33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\compiler\cpp\fields-generators">
+      <UniqueIdentifier>{0a77362e-b3b2-4348-b3ae-0f83ec0b8c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\google\protobuf\json\internal">
+      <UniqueIdentifier>{f51f9b4e-6fb1-475c-98c6-0cd3d99cd2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\utf8_range">
+      <UniqueIdentifier>{b1640716-9f23-43ed-80cc-f5c6ef8e2a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\algorithm">
+      <UniqueIdentifier>{f12a4c6b-9422-427b-ba49-aa96c9ddead2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\base">
+      <UniqueIdentifier>{a1388055-1c86-4181-9e58-83e1517cb909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\cleanup">
+      <UniqueIdentifier>{e77e3234-e1fa-47ba-953d-34a362c6d719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\container">
+      <UniqueIdentifier>{6dca773e-b8bd-4fcb-98e4-af5fa517fe7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\crc">
+      <UniqueIdentifier>{f5b9867d-bfa6-4916-aa5d-2d1b6923e54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\debugging">
+      <UniqueIdentifier>{eecb8f74-297b-4252-b435-e95bf3d18a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\flags">
+      <UniqueIdentifier>{e635ca55-21ce-41d9-8023-083ddb6b5036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\functional">
+      <UniqueIdentifier>{31ac808b-cdc5-450c-b0c4-258d5b82f4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\hash">
+      <UniqueIdentifier>{c1758ca5-e296-4c5f-bccf-eaa1341c13e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\memory">
+      <UniqueIdentifier>{a736cb51-0584-4bc0-9131-57a2e381e9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\meta">
+      <UniqueIdentifier>{35b41f97-8fb2-4f99-bf33-aee0275f09f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\numeric">
+      <UniqueIdentifier>{e1b09f1c-c494-4217-8d9f-239e13bfac49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\random">
+      <UniqueIdentifier>{c6910c68-fea7-4c0b-9a49-591011681d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\status">
+      <UniqueIdentifier>{e98c95c7-1262-43dd-ab16-639de24500f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\strings">
+      <UniqueIdentifier>{8e4eb5bb-3643-4771-aaed-60df00c8e7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\synchronization">
+      <UniqueIdentifier>{c6247f2c-f292-47bd-ba1c-cb07d93d965c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\time">
+      <UniqueIdentifier>{8991ffca-dd39-4265-ac7f-c8e3e90e99e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\types">
+      <UniqueIdentifier>{426d43c7-5812-4048-80ee-5964f1d64bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\utiity">
+      <UniqueIdentifier>{20e06972-23b5-417f-9835-c7d01555f20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\include\absl\log">
+      <UniqueIdentifier>{0232c16e-ece9-405c-ae56-95f31cb48db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\tools\debug">
+      <UniqueIdentifier>{d72b7283-5e6c-4f32-bb3d-f7ef4586232e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Proto\tools\release">
+      <UniqueIdentifier>{42ed1cc5-802c-4c5f-b47c-e4728ec7e13d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Proto\google\protobuf\map_test.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\map_test_util.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\message_unittest.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\message_unittest_legacy_apis.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\port_def.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\port_undef.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\proto3_lite_unittest.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\repeated_field_reflection_unittest.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\test_util.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\wire_format_unittest.inc">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </None>
+    <None Include="..\Proto\google\protobuf\compiler\cpp\unittest.inc">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </None>
+    <None Include="..\Proto\absl\debugging\symbolize_darwin.inc">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </None>
+    <None Include="..\Proto\absl\debugging\symbolize_elf.inc">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </None>
+    <None Include="..\Proto\absl\debugging\symbolize_emscripten.inc">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </None>
+    <None Include="..\Proto\absl\debugging\symbolize_unimplemented.inc">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </None>
+    <None Include="..\Proto\absl\debugging\symbolize_win32.inc">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </None>
+    <None Include="..\Proto\absl\flags\flag_benchmark.lds">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </None>
+    <None Include="..\Proto\absl\log\check_test_impl.inc">
+      <Filter>_Proto\include\absl\log</Filter>
+    </None>
+    <None Include="..\Proto\absl\log\log_basic_test_impl.inc">
+      <Filter>_Proto\include\absl\log</Filter>
+    </None>
+    <None Include="..\Proto\absl\numeric\int128_have_intrinsic.inc">
+      <Filter>_Proto\include\absl\numeric</Filter>
+    </None>
+    <None Include="..\Proto\absl\numeric\int128_no_intrinsic.inc">
+      <Filter>_Proto\include\absl\numeric</Filter>
+    </None>
+    <None Include="..\Proto\tools\debug\protoc.exe">
+      <Filter>_Proto\tools\debug</Filter>
+    </None>
+    <None Include="..\Proto\tools\release\protoc.exe">
+      <Filter>_Proto\tools\release</Filter>
+    </None>
+    <None Include="libs\debug\absl_bad_any_cast_impl.pdb">
+      <Filter>_Proto\libs\debug</Filter>
+    </None>
+    <None Include="libs\debug\absl_bad_optional_access.pdb">
+      <Filter>_Proto\libs\debug</Filter>
+    </None>
+    <None Include="libs\debug\absl_bad_variant_access.pdb">
+      <Filter>_Proto\libs\debug</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Proto\google\protobuf\any.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\any.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\api.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_align.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_allocation_policy.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_cleanup.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arena_test_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arenastring.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\arenaz_sampler.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\cpp_edition_defaults.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\cpp_features.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor_database.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor_legacy.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\descriptor_visitor.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\duration.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\dynamic_message.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\empty.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\endian.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\explicitly_constructed.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\extension_set.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\extension_set_inl.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\feature_resolver.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\field_access_listener.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\field_mask.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_enum_reflection.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_enum_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_bases.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_reflection.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_tctable_decl.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_tctable_gen.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_tctable_impl.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\generated_message_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\has_bits.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\implicit_weak_message.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\inlined_string_field.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\internal_visibility.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\internal_visibility_for_testing.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_entry.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field_inl.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_field_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_lite_test_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_test_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_test_util_impl.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\map_type_handler.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\message.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\message_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\metadata.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\metadata_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\package_info.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\parse_context.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\port.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\raw_ptr.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_internal.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_mode.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_ops.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_tester.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_visit_field_info.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\reflection_visit_fields.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\repeated_field.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\repeated_ptr_field.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\runtime_version.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\serial_arena.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\service.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\source_context.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\string_block.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\string_member_robber.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\struct.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_textproto.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\test_util2.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\text_format.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\thread_safe_arena.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\timestamp.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\type.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\unknown_field_set.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\unredacted_debug_format_for_test.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\varint_shuffle.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wire_format.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wire_format_lite.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\wrappers.pb.h">
+      <Filter>_Proto\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\annotation_test_util.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\code_generator.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\command_line_interface.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\command_line_interface_tester.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\importer.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\mock_code_generator.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\package_info.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\parser.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\plugin.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\plugin.pb.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\retention.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\scc.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\subprocess.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\versions.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\zip_writer.h">
+      <Filter>_Proto\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\cpp_generator.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\enum.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\extension.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\field.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\file.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\generator.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\helpers.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\ifndef_guard.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\message.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\message_layout_helper.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\names.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\namespace_printer.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\options.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\padding_optimizer.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\parse_function_generator.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\service.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\tracker.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\unittest.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\tools\analyze_profile_proto.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\compiler\cpp\field_generators\generators.h">
+      <Filter>_Proto\include\google\protobuf\compiler\cpp\fields-generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\coded_stream.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\gzip_stream.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\io_win32.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\package_info.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\printer.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\strtod.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\test_zero_copy_stream.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\tokenizer.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_sink.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>_Proto\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\json.h">
+      <Filter>_Proto\include\google\protobuf\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\descriptor_traits.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\lexer.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\message_path.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\parser.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\parser_traits.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\unparser.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\unparser_traits.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\untyped_message.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\writer.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\json\internal\zero_copy_buffered_stream.h">
+      <Filter>_Proto\include\google\protobuf\json\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\callback.h">
+      <Filter>_Proto\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\common.h">
+      <Filter>_Proto\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\platform_macros.h">
+      <Filter>_Proto\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\port.h">
+      <Filter>_Proto\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\stubs\status_macros.h">
+      <Filter>_Proto\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\delimited_message_util.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\field_comparator.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\field_mask_util.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\json_util.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\message_differencer.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\package_info.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\time_util.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\type_resolver.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\google\protobuf\util\type_resolver_util.h">
+      <Filter>_Proto\include\google\protobuf\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\utf8_range\utf8_range.h">
+      <Filter>_Proto\include\utf8_range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\utf8_range\utf8_validity.h">
+      <Filter>_Proto\include\utf8_range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\algorithm\algorithm.h">
+      <Filter>_Proto\include\absl\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\algorithm\container.h">
+      <Filter>_Proto\include\absl\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\attributes.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\call_once.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\casts.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\config.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\const_init.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\dynamic_annotations.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\log_severity.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\macros.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\no_destructor.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\nullability.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\optimization.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\options.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\policy_checks.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\port.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\prefetch.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\base\thread_annotations.h">
+      <Filter>_Proto\include\absl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\cleanup\cleanup.h">
+      <Filter>_Proto\include\absl\cleanup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\btree_map.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\btree_set.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\btree_test.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\fixed_array.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\flat_hash_map.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\flat_hash_set.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\hash_container_defaults.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\inlined_vector.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\node_hash_map.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\container\node_hash_set.h">
+      <Filter>_Proto\include\absl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\crc\crc32c.h">
+      <Filter>_Proto\include\absl\crc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\debugging\failure_signal_handler.h">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\debugging\leak_check.h">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\debugging\stacktrace.h">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\debugging\symbolize.h">
+      <Filter>_Proto\include\absl\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\commandlineflag.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\config.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\declare.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\flag.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\marshalling.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\parse.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\reflection.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\usage.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\flags\usage_config.h">
+      <Filter>_Proto\include\absl\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\functional\any_invocable.h">
+      <Filter>_Proto\include\absl\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\functional\bind_front.h">
+      <Filter>_Proto\include\absl\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\functional\function_ref.h">
+      <Filter>_Proto\include\absl\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\functional\overload.h">
+      <Filter>_Proto\include\absl\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\hash\hash.h">
+      <Filter>_Proto\include\absl\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\hash\hash_testing.h">
+      <Filter>_Proto\include\absl\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\absl_check.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\absl_log.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\absl_vlog_is_on.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\check.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\die_if_null.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\flags.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\globals.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\initialize.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\log.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\log_entry.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\log_sink.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\log_sink_registry.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\log_streamer.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\scoped_mock_log.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\structured.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\log\vlog_is_on.h">
+      <Filter>_Proto\include\absl\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\memory\memory.h">
+      <Filter>_Proto\include\absl\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\meta\type_traits.h">
+      <Filter>_Proto\include\absl\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\numeric\bits.h">
+      <Filter>_Proto\include\absl\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\numeric\int128.h">
+      <Filter>_Proto\include\absl\numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\bernoulli_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\beta_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\bit_gen_ref.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\discrete_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\distributions.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\exponential_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\gaussian_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\log_uniform_int_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\mock_distributions.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\mocking_bit_gen.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\poisson_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\random.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\seed_gen_exception.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\seed_sequences.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\uniform_int_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\uniform_real_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\random\zipf_distribution.h">
+      <Filter>_Proto\include\absl\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\status\status.h">
+      <Filter>_Proto\include\absl\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\status\status_matchers.h">
+      <Filter>_Proto\include\absl\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\status\status_payload_printer.h">
+      <Filter>_Proto\include\absl\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\status\statusor.h">
+      <Filter>_Proto\include\absl\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\ascii.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\charconv.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\charset.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\cord.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\cord_analysis.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\cord_buffer.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\cord_test_helpers.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\cordz_test_helpers.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\escaping.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\has_absl_stringify.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\has_ostream_operator.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\match.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\numbers.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\str_cat.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\str_format.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\str_join.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\str_replace.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\str_split.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\string_view.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\strip.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\strings\substitute.h">
+      <Filter>_Proto\include\absl\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\synchronization\barrier.h">
+      <Filter>_Proto\include\absl\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\synchronization\blocking_counter.h">
+      <Filter>_Proto\include\absl\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\synchronization\mutex.h">
+      <Filter>_Proto\include\absl\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\synchronization\notification.h">
+      <Filter>_Proto\include\absl\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\time\civil_time.h">
+      <Filter>_Proto\include\absl\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\time\clock.h">
+      <Filter>_Proto\include\absl\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\time\time.h">
+      <Filter>_Proto\include\absl\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\any.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\bad_any_cast.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\bad_optional_access.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\bad_variant_access.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\compare.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\optional.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\span.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\types\variant.h">
+      <Filter>_Proto\include\absl\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\absl\utility\utility.h">
+      <Filter>_Proto\include\absl\utiity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Proto\libs\debug\absl_bad_any_cast_impl.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_bad_optional_access.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_bad_variant_access.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_base.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_city.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_civil_time.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cord.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cord_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cordz_functions.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cordz_handle.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cordz_info.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_cordz_sample_token.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_crc_cord_state.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_crc_cpu_detect.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_crc_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_crc32c.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_debugging_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_decode_rust_punycode.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_demangle_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_demangle_rust.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_die_if_null.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_examine_stack.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_exponential_biased.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_failure_signal_handler.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_commandlineflag.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_commandlineflag_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_config.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_marshalling.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_parse.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_private_handle_accessor.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_program_name.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_reflection.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_usage.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_flags_usage_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_graphcycles_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_hash.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_hashtablez_sampler.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_int128.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_kernel_timeout_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_leak_check.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_entry.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_flags.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_globals.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_initialize.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_check_op.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_conditions.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_fnmatch.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_format.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_globals.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_log_sink_set.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_message.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_nullguard.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_internal_proto.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_severity.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_log_sink.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_low_level_hash.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_malloc_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_periodic_sampler.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_poison.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_distributions.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_distribution_test_util.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_platform.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_pool_urbg.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_randen.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_randen_hwaes.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_randen_hwaes_impl.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_randen_slow.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_internal_seed_material.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_seed_gen_exception.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_random_seed_sequences.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_raw_hash_set.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_raw_logging_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_scoped_set_env.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_spinlock_wait.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_stacktrace.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_status.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_statusor.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_str_format_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_strerror.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_string_view.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_strings.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_strings_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_symbolize.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_synchronization.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_throw_delegate.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_time.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_time_zone.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_utf8_for_code_point.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\absl_vlog_config_internal.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\libprotobuf-lited.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\utf8_range.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\debug\utf8_validity.lib">
+      <Filter>_Proto\libs\debug</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_bad_any_cast_impl.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_bad_optional_access.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_bad_variant_access.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_base.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_city.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_civil_time.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cord.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cord_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cordz_functions.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cordz_handle.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cordz_info.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_cordz_sample_token.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_crc_cord_state.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_crc_cpu_detect.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_crc_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_crc32c.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_debugging_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_decode_rust_punycode.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_demangle_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_demangle_rust.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_die_if_null.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_examine_stack.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_exponential_biased.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_failure_signal_handler.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_commandlineflag.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_commandlineflag_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_config.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_marshalling.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_parse.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_private_handle_accessor.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_program_name.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_reflection.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_usage.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_flags_usage_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_graphcycles_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_hash.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_hashtablez_sampler.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_int128.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_kernel_timeout_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_leak_check.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_entry.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_flags.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_globals.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_initialize.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_check_op.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_conditions.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_fnmatch.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_format.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_globals.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_log_sink_set.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_message.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_nullguard.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_internal_proto.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_severity.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_log_sink.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_low_level_hash.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_malloc_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_periodic_sampler.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_poison.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_distributions.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_distribution_test_util.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_platform.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_pool_urbg.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_randen.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_randen_hwaes.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_randen_hwaes_impl.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_randen_slow.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_internal_seed_material.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_seed_gen_exception.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_random_seed_sequences.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_raw_hash_set.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_raw_logging_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_scoped_set_env.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_spinlock_wait.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_stacktrace.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_status.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_statusor.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_str_format_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_strerror.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_string_view.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_strings.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_strings_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_symbolize.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_synchronization.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_throw_delegate.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_time.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_time_zone.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_utf8_for_code_point.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\absl_vlog_config_internal.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\libprotobuf-lite.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\utf8_range.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+    <Library Include="..\Proto\libs\release\utf8_validity.lib">
+      <Filter>_Proto\libs\release</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

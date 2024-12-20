@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9} = {8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC} = {B8872086-A0E1-472F-8121-88D08B4C1BFC}
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808} = {C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}
+		{D999076E-F08B-48FC-B732-E43E13041A07} = {D999076E-F08B-48FC-B732-E43E13041A07}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Math\Math.vcxproj", "{D999076E-F08B-48FC-B732-E43E13041A07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time", "Time\Time.vcxproj", "{886DA24C-5E47-4FD4-A830-5E2FC46C1472}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "File", "File\File.vcxproj", "{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{45313BCE-0F85-4E09-9454-DB0365E2BB48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCSTree", "PCSTree\PCSTree.vcxproj", "{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Manager", "Manager\Manager.vcxproj", "{B8872086-A0E1-472F-8121-88D08B4C1BFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proto", "Proto\Proto.vcxproj", "{C44454A3-504E-4DF7-8A6A-4DB16965984E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Protobuf", "Protobuf\Protobuf.vcxproj", "{D1AA91EA-5587-49A9-8124-8B87554CDC5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxitems", "{F5982A7C-FCEE-4066-9D16-D67281F23C56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{0D782CAA-A075-48B0-A285-FE69B63F44E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Debug|x86.Build.0 = Debug|Win32
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Release|x86.ActiveCfg = Release|Win32
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Release|x86.Build.0 = Release|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Debug|x86.ActiveCfg = Debug|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Debug|x86.Build.0 = Debug|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Release|x86.ActiveCfg = Release|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Release|x86.Build.0 = Release|Win32
+		{886DA24C-5E47-4FD4-A830-5E2FC46C1472}.Debug|x86.ActiveCfg = Debug|Win32
+		{886DA24C-5E47-4FD4-A830-5E2FC46C1472}.Debug|x86.Build.0 = Debug|Win32
+		{886DA24C-5E47-4FD4-A830-5E2FC46C1472}.Release|x86.ActiveCfg = Release|Win32
+		{886DA24C-5E47-4FD4-A830-5E2FC46C1472}.Release|x86.Build.0 = Release|Win32
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}.Debug|x86.Build.0 = Debug|Win32
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}.Release|x86.ActiveCfg = Release|Win32
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808}.Release|x86.Build.0 = Release|Win32
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}.Debug|x86.Build.0 = Debug|Win32
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}.Release|x86.ActiveCfg = Release|Win32
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9}.Release|x86.Build.0 = Release|Win32
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC}.Debug|x86.Build.0 = Debug|Win32
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC}.Release|x86.ActiveCfg = Release|Win32
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC}.Release|x86.Build.0 = Release|Win32
+		{C44454A3-504E-4DF7-8A6A-4DB16965984E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C44454A3-504E-4DF7-8A6A-4DB16965984E}.Debug|x86.Build.0 = Debug|Win32
+		{C44454A3-504E-4DF7-8A6A-4DB16965984E}.Release|x86.ActiveCfg = Release|Win32
+		{C44454A3-504E-4DF7-8A6A-4DB16965984E}.Release|x86.Build.0 = Release|Win32
+		{D1AA91EA-5587-49A9-8124-8B87554CDC5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1AA91EA-5587-49A9-8124-8B87554CDC5A}.Debug|x86.Build.0 = Debug|Win32
+		{D1AA91EA-5587-49A9-8124-8B87554CDC5A}.Release|x86.ActiveCfg = Release|Win32
+		{D1AA91EA-5587-49A9-8124-8B87554CDC5A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D999076E-F08B-48FC-B732-E43E13041A07} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{886DA24C-5E47-4FD4-A830-5E2FC46C1472} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{C5702F9D-C1B9-4338-94ED-E8ACCFE1B808} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{8E6AFCAD-A0F6-4D32-AD06-73A53902FED9} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{B8872086-A0E1-472F-8121-88D08B4C1BFC} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{C44454A3-504E-4DF7-8A6A-4DB16965984E} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{D1AA91EA-5587-49A9-8124-8B87554CDC5A} = {45313BCE-0F85-4E09-9454-DB0365E2BB48}
+		{F5982A7C-FCEE-4066-9D16-D67281F23C56} = {0D782CAA-A075-48B0-A285-FE69B63F44E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F904E58-7466-4ADD-86F2-CDA47824689D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Framework\Framework.vcxitems*{886da24c-5e47-4fd4-a830-5e2fc46c1472}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{8e6afcad-a0f6-4d32-ad06-73a53902fed9}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{b8872086-a0e1-472f-8121-88d08b4c1bfc}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{c5702f9d-c1b9-4338-94ed-e8accfe1b808}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{d1aa91ea-5587-49a9-8124-8b87554cdc5a}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{d999076e-f08b-48fc-b732-e43e13041a07}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{ed602e5d-031c-4af8-b6a6-4b34e0073b27}*SharedItemsImports = 4
+		Framework\Framework.vcxitems*{f5982a7c-fcee-4066-9d16-d67281f23c56}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal

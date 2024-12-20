@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "meshData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message modelData_proto
+{
+	repeated meshData_proto meshes = 1;
+}

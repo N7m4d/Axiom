@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf">
+      <UniqueIdentifier>{5f35af61-76e0-4d72-9562-72ba0b9b1f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf\VBO">
+      <UniqueIdentifier>{4efaeaf4-3dc4-4dbd-9cc9-27cfd7b55e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf\Texture">
+      <UniqueIdentifier>{e17a6741-e361-4206-bdab-15a8df9a9b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf\Mesh">
+      <UniqueIdentifier>{d7f2dc60-1c47-4d06-b43b-553e18aadfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf\BoundingSphere">
+      <UniqueIdentifier>{faaf46b5-4aef-477b-8ce0-6c2e73c44d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProtoBuf\Model">
+      <UniqueIdentifier>{d7c10d43-f86a-4b99-853a-e01ecad45b1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vboData.proto">
+      <Filter>Source Files\ProtoBuf\VBO</Filter>
+    </None>
+    <None Include="textureData.proto">
+      <Filter>Source Files\ProtoBuf\Texture</Filter>
+    </None>
+    <None Include="meshData.proto">
+      <Filter>Source Files\ProtoBuf\Mesh</Filter>
+    </None>
+    <None Include="boundingSphereData.proto">
+      <Filter>Source Files\ProtoBuf\BoundingSphere</Filter>
+    </None>
+    <None Include="modelData.proto">
+      <Filter>Source Files\ProtoBuf\Model</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vboData.h">
+      <Filter>Source Files\ProtoBuf\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="vboData.pb.h">
+      <Filter>Source Files\ProtoBuf\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.h">
+      <Filter>Source Files\ProtoBuf\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.pb.h">
+      <Filter>Source Files\ProtoBuf\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.h">
+      <Filter>Source Files\ProtoBuf\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.pb.h">
+      <Filter>Source Files\ProtoBuf\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingSphereData.h">
+      <Filter>Source Files\ProtoBuf\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingSphereData.pb.h">
+      <Filter>Source Files\ProtoBuf\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoVersion.h">
+      <Filter>Source Files\ProtoBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLayout.h">
+      <Filter>Source Files\ProtoBuf</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.h">
+      <Filter>Source Files\ProtoBuf\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.pb.h">
+      <Filter>Source Files\ProtoBuf\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vboData.cpp">
+      <Filter>Source Files\ProtoBuf\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="vboData.pb.cc">
+      <Filter>Source Files\ProtoBuf\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.cpp">
+      <Filter>Source Files\ProtoBuf\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.pb.cc">
+      <Filter>Source Files\ProtoBuf\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="meshData.cpp">
+      <Filter>Source Files\ProtoBuf\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="meshData.pb.cc">
+      <Filter>Source Files\ProtoBuf\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingSphereData.cpp">
+      <Filter>Source Files\ProtoBuf\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingSphereData.pb.cc">
+      <Filter>Source Files\ProtoBuf\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.pb.cc">
+      <Filter>Source Files\ProtoBuf\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.cpp">
+      <Filter>Source Files\ProtoBuf\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

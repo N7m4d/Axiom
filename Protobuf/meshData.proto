@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+import "vboData.proto";
+import "textureData.proto";
+import "boundingSphereData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message meshData_proto
+{
+	enum RENDER_MODE
+	{
+		MODE_POINTS         = 0;
+		MODE_LINE           = 1;
+		MODE_LINE_LOOP      = 2;
+		MODE_LINE_STRIP     = 3;
+		MODE_TRIANGLES      = 4;
+		MODE_TRIANGLE_STRIP = 5;
+		MODE_TRIANGLE_FAN   = 6;
+	};
+
+	optional bytes					  pVersion		  = 1;
+	optional bytes					  pMeshName		  = 2;
+	optional RENDER_MODE			  mode			  = 3;
+	optional uint32					  triCount		  = 4;
+	optional uint32					  vertCount		  = 5;
+	optional vboData_proto			  vbo_vert		  = 6;
+	optional vboData_proto			  vbo_norm		  = 7;
+	optional vboData_proto			  vbo_uv		  = 8;
+	optional vboData_proto			  vbo_index		  = 9;
+	optional vboData_proto			  vbo_color		  = 10;
+	optional textureData_proto		  texture		  = 11;
+	optional boundingSphereData_proto bounding_sphere = 12;
+	repeated float					  rotation		  = 13;
+	repeated float					  translation	  = 14;
+	repeated float					  scale			  = 15;
+	optional bool					  enabled		  = 16;
+
+}
+
+// -- End of File ---
